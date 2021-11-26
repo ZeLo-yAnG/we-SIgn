@@ -1,0 +1,76 @@
+/* pages/infor/infor.wxss */
+.i1{
+
+  margin-top:10px;
+  height: 50px;
+  font-size: 35rpx;
+  background-color:rgb(178, 202, 216);
+  width: 35%; 
+  align-items:center;
+  margin:100px auto;
+  border-radius: 30px;
+}
+.v1 {
+    margin-top: 180rpx;
+    height: 10px;
+    margin-left:10px;
+    padding-left:10px;
+    display: flex;
+    justify-content:flex-end; 
+    flex-direction: column;
+  }
+  .txt1{
+    margin-left:10px;
+    padding-left: 10px;
+    font-size:35rpx;
+    font-weight: bold;
+  }
+  
+  .num view {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 30rpx;
+    align-items: center;
+  }
+ 
+  .num view input {
+    /*width: 10%;*/
+    width:300rpx;
+    border: 2px solid #d7d7d7;
+    margin-left: 10rpx;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    padding-left: 50rpx;
+    background-color: #fafafa;
+  }
+  .name view {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 30rpx;
+    align-items: center;
+  }
+ 
+  .name view input {
+    /*width: 10%;*/
+    width:300rpx;
+    border: 2px solid #d7d7d7;
+    margin-left: 10rpx;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    padding-left: 50rpx;
+    background-color: #fafafa;
+  }
+  
+  
+  .image_1 {
+    margin-left: 135px;
+    margin-top: 80px;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 150rpx;
+    margin:50px auto;
+  }
+  
+

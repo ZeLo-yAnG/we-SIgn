@@ -1,0 +1,13 @@
+/* pages/sign/sign.wxss */
+.i1{
+    top: 150px;
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    shape-image-threshold: initial;
+}
+
+.i2{
+    height: 150px;
+    width: 150px;
+}

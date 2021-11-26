@@ -1,0 +1,10 @@
+<!--pages/first/first.wxml-->
+<view wx:if="{{haveOpenID}}">
+    <button bindtap='gotclass' class="i3">
+        <image src="../images/teacher.png"class="i1"></image>
+        
+    </button>
+    <button bindtap='gosclass' class="i4">
+        <image src="../images/student.png" class="i2"></image>
+    </button>
+</view>

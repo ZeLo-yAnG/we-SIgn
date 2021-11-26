@@ -1,0 +1,48 @@
+/* pages/weiqian/weiqian.wxss */
+.v1 {
+    margin-top: 180rpx;
+    height: 50px;
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;
+    flex-direction: column;
+  }
+  .txt1{
+    font-size:50rpx;
+    font-weight: bold;
+  }
+  
+  .name view {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 30rpx;
+    align-items: center;
+  }
+ 
+  .name view input {
+    /*width: 10%;*/
+    width:300rpx;
+    border: 2px solid #d7d7d7;
+    margin-left: 10rpx;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    padding-left: 50rpx;
+    background-color: #fafafa;
+  }
+  .name text {
+    font-size: 27rpx;
+    font-weight: bold;
+    color: #7C7C7C;
+  }
+  
+  .image_1 {
+    margin-left: 135px;
+    margin-top: 80px;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 150rpx;
+    margin:50px auto;
+  }
+
+

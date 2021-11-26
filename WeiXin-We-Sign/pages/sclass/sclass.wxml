@@ -1,0 +1,25 @@
+<!--pages/sclass/sclass.wxml-->
+<view>
+    <text class="title">我加入的课堂：\n</text>
+</view>
+<view class="container">
+    <image src="../images/none.png"class="backgroud" wx:if="{{powerList.length == 0}}"></image>
+    <view class="power" wx:key="name" wx:for="{{powerList}}" wx:for-item="power">
+        <view class="power_info" data-index="{{index}}" bindtap="goshclass" id="{{power.cid}}">
+            <view class="power_info_text">
+                <view class="power_info_text_title">{{power.name}}</view>
+                <!-- <view class="power_info_text_tip">{{power.tip}}</view> -->
+            </view>
+            <image class="power_item_icon" src="../../images/arrow.svg"></image>
+        </view>
+    </view>
+    <view class='placeholder-view'></view>
+</view>
+<view class="i1">
+    <button bindtap='goinfor' class="i1">
+        <text>修改我的信息</text>
+    </button>
+</view>
+<button bindtap='goweiqian'>
+    <image src="../images/plus.png" class="plus"></image>
+</button>

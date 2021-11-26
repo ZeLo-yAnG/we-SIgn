@@ -1,0 +1,31 @@
+/* pages/classcode/classcode.wxss */
+.i1{
+  
+  font-size: 40px;
+  line-height: 55px;
+  word-spacing: 12px;
+  text-align:center;
+}
+
+.i3{
+  
+  font-size: 30px;
+  line-height: 55px;
+  word-spacing: 12px;
+  margin-left: 30px;
+ 
+}
+
+.i2{
+  line-height: 55px;
+  font-size: 20px;
+  text-align: right;justify-content: flex-end;
+}
+
+.i4{
+  margin-top:10px;
+  height: 100rpx;
+  font-size: 40rpx;
+  background-color:rgb(178, 202, 216);
+  border-radius: 25px;
+}

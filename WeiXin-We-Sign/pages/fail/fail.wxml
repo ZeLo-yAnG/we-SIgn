@@ -1,0 +1,15 @@
+<!--pages/fail/fail.wxml-->
+<!--pages/sucess/sucess.wxml-->
+<view class="i1">
+    <text class="i1">\n</text>
+    <text class="i1">\n</text>
+    <text class="i1">\n</text>
+    <text class="i1">签到失败</text>
+    <view class="i2">{{currenTime}}</view>
+</view>
+
+<view>
+    <button bindtap='gosign'class="i1">
+        <image src="../images/resign.png"class="i2"></image>
+    </button>
+</view>

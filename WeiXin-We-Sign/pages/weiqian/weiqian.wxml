@@ -1,0 +1,15 @@
+<!--pages/weiqian/weiqian.wxml-->
+
+<view class="v1">
+  <text class="txt1">输入课堂码</text>
+</view>
+<view class="name">
+      <view>
+        <input value="{{content}}" class="weui-input" name="text" type="text" bindinput="getcid" placeholder="" />
+      </view>
+    </view>
+
+    <image bindtap='resetData' class="image_1" src="/pages/images/queding.png" ></image>
+
+
+

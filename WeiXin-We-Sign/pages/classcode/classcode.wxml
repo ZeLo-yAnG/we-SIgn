@@ -1,0 +1,21 @@
+<!--pages/classcode/classcode.wxml-->
+<view>
+    <text class="i1">\n</text>
+    <text class="i1">\n</text>
+    <view class="i1" >创建成功</view>
+    
+</view>
+<view> 
+  <text class="i1">\n</text>
+  <view class="i3">课堂码：{{cid}}</view>
+  <text class="i1">\n</text>
+  <text class="i1">\n</text>
+</view>
+   
+    <view class="i2">{{currenTime}}</view>
+
+
+<view>
+    <button bindtap='gotclass' class="i4" style="width: 50%;">确定</button>
+</view>
+

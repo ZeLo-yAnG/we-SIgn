@@ -1,0 +1,12 @@
+/* pages/fail/fail.wxss */
+.i1{
+  font-size: 70px;
+  line-height: 55px;
+  word-spacing: 12px;
+  margin: 0 auto;
+}
+
+.i2{
+  height: 150px;
+  width: 150px;
+}

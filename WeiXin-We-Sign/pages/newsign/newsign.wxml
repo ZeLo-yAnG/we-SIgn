@@ -1,0 +1,21 @@
+<!--pages/newsign/newsign.wxml-->
+<view>
+    <text class="title">选择开启的反作弊功能</text>
+    <checkbox-group bindchange="checkboxChange">
+        <view class="power" wx:for="{{items}}">
+            <view class="power_info" opt="{{item.opt}}">
+                <view class="power_info_text">
+                    <checkbox value="{{item.opt}}" id ="{{index}}">{{item.name}}</checkbox>
+                </view>
+            </view>
+        </view>
+
+    </checkbox-group>
+
+    <button class="i5" bindtap='gothclass' style="width: 70%;">
+        <text>发布签到</text>
+    </button>
+</view>
+<!-- <view>
+  <button class="i5" bindtap="gothclass">发布签到</button>
+</view> -->

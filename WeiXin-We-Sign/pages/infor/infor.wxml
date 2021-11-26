@@ -1,0 +1,28 @@
+<!--pages/infor/infor.wxml-->
+
+<view class="v1">
+  <text class="txt1">个人信息:</text>
+</view>
+<view class="num">
+  <view>
+    <text class="txt1" >学号</text><input class="weui-input" name="text" type="text" bindinput="getsid" value="{{no}}"/>
+  </view>
+</view>
+<view class="name">
+  <view>
+    <text class="txt1" >姓名</text><input class="weui-input" name="text" type="text" bindinput="getname" value="{{name}}"/>
+  </view>
+</view>
+<image class="image_1" bindtap='resetData' class="image_1" src="/pages/images/queding.png" ></image>
+<button bindtap='gocam1' class="i1" style="width: 40%;align-items:center">
+  <text style="line-height: 25px;color:black;">上传个人照片</text>
+</button> 
+
+  
+      
+      
+
+
+
+
+

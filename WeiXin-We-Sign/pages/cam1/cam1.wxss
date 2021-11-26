@@ -1,0 +1,14 @@
+/* pages/cam/cam.wxss */
+.i1{
+  height: 50px;
+  font-size: 35rpx;
+  background-color:rgb(178, 202, 216);
+  width: 35%; 
+  align-items:center;
+ 
+}
+.cam{
+  border-radius: 200rpx;
+  width: 400rpx; 
+  height: 400rpx; 
+}

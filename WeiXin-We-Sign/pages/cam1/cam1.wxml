@@ -1,0 +1,9 @@
+<!--pages/cam/cam.wxml-->
+<view class="container">
+    <camera device-position="front" flash="off" binderror="error" class="cam"></camera>
+    <text>请正脸面对摄像头</text>
+    <button class="i1" bindtap="takePhoto">开始人脸采集</button>
+    <view>预览</view>
+    <image class="cam" mode="widthFix" src="{{src}}"></image>
+    <button class="i1" bindtap="back">确定</button>
+</view>

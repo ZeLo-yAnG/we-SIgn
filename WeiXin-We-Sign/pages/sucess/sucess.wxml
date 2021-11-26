@@ -1,0 +1,12 @@
+<!--pages/sucess/sucess.wxml-->
+<view class="i1">
+    <text class="i1">\n</text>
+    <text class="i1">\n</text>
+    <text class="i1">\n</text>
+    <text class="i1">签到{{state}}</text>
+    <view class="i2" wx:if="{{state=='成功'}}">{{currenTime}}</view>
+</view>
+
+<view>
+    <button class="i5" bindtap='gosclass'>返回</button>
+</view>

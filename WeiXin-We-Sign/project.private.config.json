@@ -1,0 +1,114 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/shclass/shclass",
+          "pathName": "pages/shclass/shclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/cam/cam",
+          "pathName": "pages/cam/cam",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tclass/tclass",
+          "pathName": "pages/tclass/tclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/thclass/thclass",
+          "pathName": "pages/thclass/thclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tclass/tclass",
+          "pathName": "pages/tclass/tclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/classname/classname",
+          "pathName": "pages/classname/classname",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/classcode/classcode",
+          "pathName": "pages/classcode/classcode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/infor/infor",
+          "pathName": "pages/infor/infor",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newsign/newsign",
+          "pathName": "pages/newsign/newsign",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/hclass/hclass",
+          "pathName": "pages/hclass/hclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sclass/sclass",
+          "pathName": "pages/sclass/sclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sucess/sucess",
+          "pathName": "pages/sucess/sucess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/weiqian/weiqian",
+          "pathName": "pages/weiqian/weiqian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sign/sign",
+          "pathName": "pages/sign/sign",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shclass/shclass",
+          "pathName": "pages/shclass/shclass",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/thclass/thclass",
+          "pathName": "pages/thclass/thclass",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

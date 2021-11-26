@@ -1,0 +1,29 @@
+<!--pages/hclass/hclass.wxml-->
+<view>
+  <text class="title">课堂码：{{cid}}</text>
+</view>
+<view>
+  <text class="title">我发布的签到：</text>
+</view>
+<view class="container">
+  <view class="power" wx:if="{{state}}">
+    <view class="power_info" bindtap="goNowSign">
+      <view class="power_info_text">
+        <view class="power_info_text_title">当前正在签到中，点击进入</view>
+      </view>
+      <image class="power_item_icon" src="../../images/arrow.svg"></image>
+    </view>
+  </view>
+  <image src="../images/none.png"class="backgroud" wx:if="{{powerList.length == 0 && !state}}"></image>
+  <view class="power" wx:key="time" wx:for="{{powerList}}" wx:for-item="power">
+    <view class="power_info" bindtap="gothclass" id="{{power.time}}">
+      <view class="power_info_text">
+        <view class="power_info_text_title">{{power.time}}</view>
+      </view>
+      <image class="power_item_icon" src="../../images/arrow.svg"></image>
+    </view>
+  </view>
+</view>
+<button bindtap='newSign'>
+  <image src="../images/plus.png" class="plus"></image>
+</button>

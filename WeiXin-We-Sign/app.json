@@ -1,0 +1,36 @@
+{
+  "pages": [
+  
+    "pages/first/first",
+    "pages/sclass/sclass",
+    "pages/hclass/hclass",
+    "pages/tclass/tclass",
+    "pages/thclass/thclass",
+    "pages/shclass/shclass",
+    "pages/sign/sign",
+    "pages/signsucess/signsucess",
+    "pages/cam/cam",
+    "pages/cam1/cam1",
+    "pages/classname/classname",
+    "pages/weiqian/weiqian",
+    "pages/infor/infor",
+    "pages/fail/fail",
+    "pages/sucess/sucess",
+    "pages/newsign/newsign",
+    "pages/classcode/classcode"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "是否允许你的位置信息被获取"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "微签",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

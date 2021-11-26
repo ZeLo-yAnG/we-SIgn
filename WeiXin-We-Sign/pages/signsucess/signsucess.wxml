@@ -1,0 +1,3 @@
+<!--pages/signsucess/signsucess.wxml-->
+<text class="i1">{{state}}</text>
+<button  class="i5" bindtap="gosclass">返回</button>

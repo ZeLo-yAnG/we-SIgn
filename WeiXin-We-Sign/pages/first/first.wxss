@@ -1,0 +1,30 @@
+/* pages/first/first.wxss */
+.i1{
+    width: 142px;
+    height: 194px;
+}
+
+.i2{
+    width: 142px;
+    height: 194px;
+}
+
+.i3{
+    position: absolute;
+    top: 100px;
+    right: 50%;
+    flex-direction: 1;
+    width: 10px;
+    height: 200px;
+    background-color: white;
+}
+
+.i4{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    flex-direction: 2;
+    width: 10px;
+    height: 200px;
+    background-color: white;
+}

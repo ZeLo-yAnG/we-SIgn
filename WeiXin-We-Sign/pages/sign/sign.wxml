@@ -1,0 +1,6 @@
+<!--pages/sign/sign.wxml-->
+<view>
+    <button bindtap='gosuccess'class="i1">
+        <image src="../images/签到.png"class="i2"></image>
+    </button>
+</view>

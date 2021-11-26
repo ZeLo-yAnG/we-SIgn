@@ -1,0 +1,21 @@
+<view>
+    <button bindtap='gosign' wx:if='{{state}}'>
+        <image src="../images/sign.png" class="i1"></image>
+    </button>
+</view>
+<view>
+    <text style="font-size: 35rpx; line-height: 10px; font-weight:600;color:black;margin-left:10px">历史签到信息：</text>
+    <view class="container">
+        <image src="../images/none.png"class="backgroud" wx:if="{{powerList.length == 0}}"></image>
+        <view class="power" wx:key="name" wx:for="{{powerList}}" wx:for-item="power">
+            <view class="power_info" data-index="{{index}}" bindtap="onClickPowerInfo" id="{{power.state}}">
+                <view class="power_info_text">
+                    <text class="power_info_text_title">签到状态：{{power.state}}\n签到时间：{{power.time}}</text>
+                    <!-- <view class="power_info_text_tip">{{power.tip}}</view> -->
+                </view>
+                <!-- <image class="power_item_icon" src="../../images/arrow.svg"></image> -->
+            </view>
+        </view>
+    </view>
+
+</view>

@@ -1,0 +1,36 @@
+
+
+<view>
+  <button class="i1" bindtap="haveSigned" style="width: 45%; margin-left:10px; margin-top:25px">
+    <text style="font-size: 17px; line-height: 25px;color:black; ">已签到（{{powerList.signed.length}}）</text>
+  </button>
+  <button class="i1" bindtap="noSigned" style="width: 45%; margin-left :12px; margin-top:25px">
+    <text style="font-size: 17px; line-height: 25px;color:black">未签到（{{powerList.noSign.length}}）</text>
+  </button>
+  <view class="container">
+  <view class="power" wx:key="name" wx:for="{{powerList.signed}}" wx:for-item="power" wx:if="{{sign}}">
+    <view class="power_info" data-index="{{index}}" bindtap="gohclass" id="{{power.no}}">
+      <view class="power_info_text">
+        <text class="power_info_text_title">学号：{{power.no}}\n姓名：{{power.name}}</text>
+      </view>
+      <!-- <image class="power_item_icon" src="../../images/arrow.svg"></image> -->
+    </view>
+  </view>
+  </view>
+  <view class="container">
+  <view class="power" wx:key="name" wx:for="{{powerList.noSign}}" wx:for-item="power" wx:if="{{nosign}}">
+    <view class="power_info" data-index="{{index}}" bindtap="gohclass" id="{{power.no}}">
+      <view class="power_info_text">
+        <text class="power_info_text_title">学号：{{power.no}}\n姓名：{{power.name}}</text>
+      </view>
+      <!-- <image class="power_item_icon" src="../../images/arrow.svg"></image> -->
+    </view>
+  </view>
+</view>
+
+  <button class="i3" bindtap='endSign' style="width: 40%;align-items:center">
+    <text style="font-size: 17px; line-height: 25px;color:black; ">结束签到</text>
+  </button>
+
+</view>
+      

@@ -1,0 +1,21 @@
+<!--pages/classname/classname.wxml-->
+<view class="v1">
+  <text class="title">课堂信息:</text>
+</view>
+<view class="num">
+      <view>
+        <text class="txt1">课程名</text><input value="{{content}}" class="weui-input" name="text" type="text" bindinput="getcid"/>
+      </view>
+    </view>
+    <!-- <view class="name"> -->
+      <!-- <view> -->
+        <!-- <input class="weui-input" name="text" type="text" bindinput="nameInput" value="     教师姓名" /> -->
+      <!-- </view> -->
+    <!-- </view> -->
+
+    <image bindtap='resetData' class="image_1" src="/pages/images/queding.png" ></image>
+
+
+
+
+
